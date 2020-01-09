@@ -39,6 +39,7 @@ public class Project {
   public Project() {
   }
 
+  //region methods
   public Long getId() {
     return id;
   }
@@ -102,6 +103,8 @@ public class Project {
   public void setUpdated_At(Date updated_At) {
     this.updated_At = updated_At;
   }
+
+  //endregion
 
   @PrePersist
   protected void onCreate(){
